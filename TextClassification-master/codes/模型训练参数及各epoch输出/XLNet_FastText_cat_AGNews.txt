@@ -1,0 +1,101 @@
+        self.require_improvement = 2000                                 # 若超过1000batch效果还没提升，则提前结束训练
+        self.num_classes = len(self.class_list)                         # 类别数
+        self.num_epochs = 20                                             # epoch数
+        self.batch_size = 64                                           # mini-batch大小
+        self.pad_size = 64                                              # 每句话处理成的长度(短填长切)
+        self.learning_rate = 1e-5
+Epoch:   0% 0/20 [00:00<?, ?it/s]torch.Size([48]) torch.Size([48])
+Iter:      0,  Train Loss: 0.034,  Train Acc: 100.00%,  Val Loss:  0.21,  Val Acc: 93.53%,  Time: 0:00:57 *
+/usr/local/lib/python3.6/dist-packages/numpy/lib/function_base.py:393: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/usr/local/lib/python3.6/dist-packages/numpy/core/_methods.py:161: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Iter:    100,  Train Loss: 0.092,  Train Acc: 96.88%,  Val Loss:   0.0,  Val Acc:   nan%,  Time: 0:02:18 
+WARNING:root:NaN or Inf found in input tensor.
+torch.Size([48]) torch.Size([64])
+Iter:    200,  Train Loss:  0.06,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 94.02%,  Time: 0:04:08 *
+torch.Size([64]) torch.Size([48])
+Iter:    300,  Train Loss: 0.097,  Train Acc: 96.88%,  Val Loss:   0.0,  Val Acc:   nan%,  Time: 0:05:29 
+WARNING:root:NaN or Inf found in input tensor.
+torch.Size([48]) torch.Size([64])
+Iter:    400,  Train Loss:  0.15,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.72%,  Time: 0:07:15 
+torch.Size([64]) torch.Size([48])
+Iter:    500,  Train Loss:  0.26,  Train Acc: 90.62%,  Val Loss:  0.27,  Val Acc: 90.62%,  Time: 0:08:35 
+torch.Size([48]) torch.Size([64])
+Iter:    600,  Train Loss: 0.086,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.77%,  Time: 0:10:22 
+torch.Size([64]) torch.Size([48])
+Iter:    700,  Train Loss:  0.31,  Train Acc: 92.19%,  Val Loss:  0.21,  Val Acc: 92.19%,  Time: 0:11:42 
+torch.Size([48]) torch.Size([64])
+Iter:    800,  Train Loss: 0.062,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 93.94%,  Time: 0:13:28 
+torch.Size([64]) torch.Size([48])
+Iter:    900,  Train Loss:  0.15,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 93.75%,  Time: 0:14:49 
+torch.Size([48]) torch.Size([64])
+Iter:   1000,  Train Loss:  0.15,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 93.93%,  Time: 0:16:39 *
+torch.Size([64]) torch.Size([48])
+Iter:   1100,  Train Loss:  0.15,  Train Acc: 95.31%,  Val Loss:   0.15,  Val Acc: 96.09%,  Time: 0:18:05 *
+torch.Size([48]) torch.Size([64])
+Iter:   1200,  Train Loss: 0.034,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 93.97%,  Time: 0:19:50 
+torch.Size([64]) torch.Size([48])
+Iter:   1300,  Train Loss:  0.17,  Train Acc: 95.31%,  Val Loss:  0.14,  Val Acc: 95.62%,  Time: 0:21:15 *
+torch.Size([48]) torch.Size([64])
+Iter:   1400,  Train Loss:  0.12,  Train Acc: 96.88%,  Val Loss:  0.17,  Val Acc: 93.97%,  Time: 0:23:00 
+torch.Size([64]) torch.Size([48])
+Iter:   1500,  Train Loss:  0.14,  Train Acc: 93.75%,  Val Loss:  0.16,  Val Acc: 94.79%,  Time: 0:24:22 
+torch.Size([48]) torch.Size([64])
+Iter:   1600,  Train Loss:  0.15,  Train Acc: 90.62%,  Val Loss:  0.17,  Val Acc: 94.17%,  Time: 0:26:07 
+torch.Size([64]) torch.Size([48])
+Iter:   1700,  Train Loss:  0.09,  Train Acc: 96.88%,  Val Loss:  0.17,  Val Acc: 93.75%,  Time: 0:27:29 
+Epoch:   5% 1/20 [28:32<9:02:20, 1712.68s/it]torch.Size([48]) torch.Size([64])
+Iter:   1800,  Train Loss: 0.056,  Train Acc: 96.88%,  Val Loss:  0.17,  Val Acc: 94.22%,  Time: 0:29:12 
+torch.Size([64]) torch.Size([48])
+Iter:   1900,  Train Loss:  0.16,  Train Acc: 95.31%,  Val Loss:  0.17,  Val Acc: 94.14%,  Time: 0:30:34 
+torch.Size([48]) torch.Size([64])
+Iter:   2000,  Train Loss: 0.084,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 93.71%,  Time: 0:32:18 
+torch.Size([64]) torch.Size([48])
+Iter:   2100,  Train Loss:   0.2,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 94.10%,  Time: 0:33:41 
+torch.Size([48]) torch.Size([64])
+Iter:   2200,  Train Loss:  0.11,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 93.77%,  Time: 0:35:24 
+torch.Size([64]) torch.Size([48])
+Iter:   2300,  Train Loss:   0.1,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 94.69%,  Time: 0:36:47 
+torch.Size([48]) torch.Size([64])
+Iter:   2400,  Train Loss: 0.053,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 93.89%,  Time: 0:38:31 
+torch.Size([64]) torch.Size([48])
+Iter:   2500,  Train Loss: 0.039,  Train Acc: 100.00%,  Val Loss:  0.17,  Val Acc: 95.17%,  Time: 0:39:54 
+torch.Size([48]) torch.Size([64])
+Iter:   2600,  Train Loss: 0.084,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 94.16%,  Time: 0:41:37 
+torch.Size([64]) torch.Size([48])
+Iter:   2700,  Train Loss:  0.09,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 94.79%,  Time: 0:43:00 
+torch.Size([48]) torch.Size([64])
+Iter:   2800,  Train Loss:  0.12,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 93.69%,  Time: 0:44:43 
+torch.Size([64]) torch.Size([48])
+Iter:   2900,  Train Loss:  0.19,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 94.95%,  Time: 0:46:07 
+torch.Size([48]) torch.Size([64])
+Iter:   3000,  Train Loss:  0.13,  Train Acc: 98.44%,  Val Loss:  0.19,  Val Acc: 93.71%,  Time: 0:47:49 
+torch.Size([64]) torch.Size([48])
+Iter:   3100,  Train Loss: 0.042,  Train Acc: 98.44%,  Val Loss:   0.20,  Val Acc: 94.42%,  Time: 0:49:13 
+torch.Size([48]) torch.Size([64])
+Iter:   3200,  Train Loss: 0.014,  Train Acc: 100.00%,  Val Loss:  0.18,  Val Acc: 93.87%,  Time: 0:50:55 
+torch.Size([64]) torch.Size([48])
+Iter:   3300,  Train Loss:   0.1,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 94.48%,  Time: 0:52:20 
+No optimization for a long time, auto-stopping...
+torch.Size([48]) torch.Size([48])
+Test Loss:  0.17,  Test Acc: 94.57%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+       World     0.9563    0.9497    0.9530      1888
+      Sports     0.9862    0.9857    0.9859      1885
+    Business     0.9378    0.9020    0.9195      1888
+    Sci/Tech     0.9044    0.9455    0.9245      1891
+
+    accuracy                         0.9457      7552
+   macro avg     0.9462    0.9457    0.9457      7552
+weighted avg     0.9461    0.9457    0.9457      7552
+
+Confusion Matrix...
+[[1793   14   36   45]
+ [  11 1858    9    7]
+ [  44    4 1703  137]
+ [  27    8   68 1788]]
+Time usage: 0:00:34
+Epoch:   5% 1/20 [52:55<16:45:36, 3175.61s/it]

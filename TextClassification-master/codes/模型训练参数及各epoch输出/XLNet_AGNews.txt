@@ -1,0 +1,43 @@
+        self.require_improvement = 1500                                 # 若超过1000batch效果还没提升，则提前结束训练
+        self.num_classes = len(self.class_list)                         # 类别数
+        self.num_epochs = 10                                             # epoch数
+        self.batch_size = 128                                           # mini-batch大小
+        self.pad_size = 64                                              # 每句话处理成的长度(短填长切)
+        self.learning_rate = 1e-6
+Epoch:   0% 0/10 [00:00<?, ?it/s]Iter:      0,  Train Loss: 0.098,  Train Acc: 98.44%,  Val Loss:  0.17,  Val Acc: 93.65%,  Time: 0:00:18 *
+Iter:    100,  Train Loss:  0.16,  Train Acc: 92.97%,  Val Loss:  0.17,  Val Acc: 93.80%,  Time: 0:02:07 
+Iter:    200,  Train Loss:  0.14,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.78%,  Time: 0:03:55 
+Iter:    300,  Train Loss:   0.1,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.83%,  Time: 0:05:43 
+Iter:    400,  Train Loss: 0.057,  Train Acc: 97.66%,  Val Loss:  0.18,  Val Acc: 93.80%,  Time: 0:07:32 
+Iter:    500,  Train Loss:  0.15,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 93.78%,  Time: 0:09:20 
+Iter:    600,  Train Loss: 0.039,  Train Acc: 99.22%,  Val Loss:  0.18,  Val Acc: 93.82%,  Time: 0:11:08 
+Iter:    700,  Train Loss: 0.059,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 93.90%,  Time: 0:12:57 
+Iter:    800,  Train Loss:  0.14,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 93.90%,  Time: 0:14:45 
+Epoch:  10% 1/10 [16:08<2:25:14, 968.32s/it]Iter:    900,  Train Loss: 0.085,  Train Acc: 96.09%,  Val Loss:  0.19,  Val Acc: 93.85%,  Time: 0:16:33 
+Iter:   1000,  Train Loss:  0.12,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.93%,  Time: 0:18:22 
+Iter:   1100,  Train Loss: 0.074,  Train Acc: 96.88%,  Val Loss:  0.19,  Val Acc: 93.90%,  Time: 0:20:10 
+Iter:   1200,  Train Loss:  0.08,  Train Acc: 96.88%,  Val Loss:  0.19,  Val Acc: 93.88%,  Time: 0:21:59 
+Iter:   1300,  Train Loss: 0.062,  Train Acc: 97.66%,  Val Loss:  0.19,  Val Acc: 93.75%,  Time: 0:23:47 
+Iter:   1400,  Train Loss: 0.056,  Train Acc: 99.22%,  Val Loss:  0.19,  Val Acc: 93.65%,  Time: 0:25:35 
+Iter:   1500,  Train Loss:  0.13,  Train Acc: 96.09%,  Val Loss:  0.19,  Val Acc: 93.80%,  Time: 0:27:24 
+No optimization for a long time, auto-stopping...
+Test Loss:  0.16,  Test Acc: 94.36%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+       World     0.9671    0.9442    0.9555      1900
+      Sports     0.9807    0.9900    0.9853      1900
+    Business     0.9361    0.8937    0.9144      1900
+    Sci/Tech     0.8932    0.9463    0.9190      1900
+
+    accuracy                         0.9436      7600
+   macro avg     0.9443    0.9436    0.9436      7600
+weighted avg     0.9443    0.9436    0.9436      7600
+
+Confusion Matrix...
+[[1794   18   42   46]
+ [   5 1881    9    5]
+ [  30    8 1698  164]
+ [  26   11   65 1798]]
+Time usage: 0:00:20
+Epoch:  10% 1/10 [27:44<4:09:38, 1664.24s/it]

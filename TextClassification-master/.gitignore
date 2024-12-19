@@ -1,0 +1,7 @@
+codes/baselines/.idea
+codes/baselines/log/*
+/codes/baselines/saved_dict/*
+/codes/baselines/pre_trained/*
+!/codes/baselines/pre_trained/readme.txt
+__pycache__
+.vscode

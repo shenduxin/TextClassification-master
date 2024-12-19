@@ -1,0 +1,362 @@
+Loading data...
+Time usage: 0:01:30
+<bound method Module.parameters of Model(
+  (bert): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(30522, 768, padding_idx=0)
+      (position_embeddings): Embedding(512, 768)
+      (token_type_embeddings): Embedding(2, 768)
+      (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (1): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (2): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (3): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (4): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (5): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (6): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (7): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (8): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (9): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (10): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (11): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=768, out_features=768, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (fc): Linear(in_features=768, out_features=4, bias=True)
+)>
+Iter:      0,  Train Loss:   1.4,  Train Acc: 20.31%,  Val Loss:   1.4,  Val Acc: 23.78%,  Time: 0:00:09 *
+Iter:    100,  Train Loss:  0.57,  Train Acc: 82.81%,  Val Loss:  0.57,  Val Acc: 87.48%,  Time: 0:00:44 *
+Iter:    200,  Train Loss:   0.2,  Train Acc: 96.88%,  Val Loss:  0.34,  Val Acc: 89.88%,  Time: 0:01:18 *
+Iter:    300,  Train Loss:  0.25,  Train Acc: 93.75%,  Val Loss:  0.28,  Val Acc: 91.20%,  Time: 0:01:53 *
+Iter:    400,  Train Loss:  0.25,  Train Acc: 92.19%,  Val Loss:  0.26,  Val Acc: 91.40%,  Time: 0:02:28 *
+Iter:    500,  Train Loss:  0.37,  Train Acc: 89.06%,  Val Loss:  0.25,  Val Acc: 91.83%,  Time: 0:03:03 *
+Iter:    600,  Train Loss:  0.34,  Train Acc: 90.62%,  Val Loss:  0.24,  Val Acc: 91.75%,  Time: 0:03:39 *
+Iter:    700,  Train Loss:  0.24,  Train Acc: 89.06%,  Val Loss:  0.23,  Val Acc: 92.27%,  Time: 0:04:14 *
+Iter:    800,  Train Loss:  0.28,  Train Acc: 89.06%,  Val Loss:  0.22,  Val Acc: 92.27%,  Time: 0:04:49 *
+Iter:    900,  Train Loss:   0.2,  Train Acc: 93.75%,  Val Loss:  0.21,  Val Acc: 92.90%,  Time: 0:05:24 *
+Iter:   1000,  Train Loss:   0.1,  Train Acc: 96.88%,  Val Loss:  0.21,  Val Acc: 92.32%,  Time: 0:05:58 
+Iter:   1100,  Train Loss:  0.16,  Train Acc: 95.31%,  Val Loss:  0.21,  Val Acc: 92.68%,  Time: 0:06:33 *
+Iter:   1200,  Train Loss:   0.2,  Train Acc: 95.31%,  Val Loss:  0.21,  Val Acc: 92.62%,  Time: 0:07:08 *
+Iter:   1300,  Train Loss: 0.085,  Train Acc: 98.44%,  Val Loss:  0.21,  Val Acc: 92.70%,  Time: 0:07:41 
+Iter:   1400,  Train Loss:  0.33,  Train Acc: 89.06%,  Val Loss:   0.2,  Val Acc: 92.68%,  Time: 0:08:17 *
+Iter:   1500,  Train Loss:   0.3,  Train Acc: 90.62%,  Val Loss:   0.2,  Val Acc: 93.05%,  Time: 0:08:52 *
+Iter:   1600,  Train Loss:  0.18,  Train Acc: 93.75%,  Val Loss:   0.2,  Val Acc: 92.60%,  Time: 0:09:25 
+Iter:   1700,  Train Loss:  0.23,  Train Acc: 93.75%,  Val Loss:  0.21,  Val Acc: 92.32%,  Time: 0:09:58 
+Iter:   1800,  Train Loss:  0.19,  Train Acc: 92.19%,  Val Loss:  0.19,  Val Acc: 93.05%,  Time: 0:10:33 *
+Iter:   1900,  Train Loss:  0.22,  Train Acc: 92.19%,  Val Loss:   0.2,  Val Acc: 92.68%,  Time: 0:11:07 
+Iter:   2000,  Train Loss:  0.13,  Train Acc: 95.31%,  Val Loss:   0.2,  Val Acc: 93.17%,  Time: 0:11:41 
+Iter:   2100,  Train Loss:  0.21,  Train Acc: 93.75%,  Val Loss:   0.2,  Val Acc: 93.28%,  Time: 0:12:15 
+Iter:   2200,  Train Loss:  0.13,  Train Acc: 95.31%,  Val Loss:   0.2,  Val Acc: 93.00%,  Time: 0:12:48 
+Iter:   2300,  Train Loss: 0.065,  Train Acc: 98.44%,  Val Loss:  0.19,  Val Acc: 93.27%,  Time: 0:13:24 *
+Iter:   2400,  Train Loss:   0.2,  Train Acc: 92.19%,  Val Loss:  0.19,  Val Acc: 93.20%,  Time: 0:13:59 *
+Iter:   2500,  Train Loss:  0.21,  Train Acc: 90.62%,  Val Loss:  0.19,  Val Acc: 93.17%,  Time: 0:14:33 
+Iter:   2600,  Train Loss:  0.11,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 93.10%,  Time: 0:15:06 
+Iter:   2700,  Train Loss:  0.15,  Train Acc: 93.75%,  Val Loss:   0.2,  Val Acc: 92.73%,  Time: 0:15:39 
+Iter:   2800,  Train Loss:  0.21,  Train Acc: 93.75%,  Val Loss:  0.19,  Val Acc: 93.05%,  Time: 0:16:13 
+Iter:   2900,  Train Loss:  0.11,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 93.07%,  Time: 0:16:47 
+Iter:   3000,  Train Loss:  0.11,  Train Acc: 93.75%,  Val Loss:  0.19,  Val Acc: 92.97%,  Time: 0:17:20 
+Iter:   3100,  Train Loss:  0.27,  Train Acc: 90.62%,  Val Loss:  0.18,  Val Acc: 93.42%,  Time: 0:17:56 *
+Iter:   3200,  Train Loss:  0.12,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.50%,  Time: 0:18:31 *
+Iter:   3300,  Train Loss:  0.16,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 93.87%,  Time: 0:19:07 *
+Iter:   3400,  Train Loss:  0.22,  Train Acc: 92.19%,  Val Loss:  0.18,  Val Acc: 93.63%,  Time: 0:19:41 
+Iter:   3500,  Train Loss:  0.22,  Train Acc: 90.62%,  Val Loss:  0.18,  Val Acc: 93.58%,  Time: 0:20:14 
+Iter:   3600,  Train Loss:  0.16,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.27%,  Time: 0:20:48 
+Iter:   3700,  Train Loss:  0.14,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 93.52%,  Time: 0:21:22 
+Iter:   3800,  Train Loss: 0.095,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.42%,  Time: 0:21:56 
+Iter:   3900,  Train Loss:   0.2,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.73%,  Time: 0:22:29 
+Iter:   4000,  Train Loss: 0.076,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 93.72%,  Time: 0:23:03 
+Iter:   4100,  Train Loss:  0.35,  Train Acc: 87.50%,  Val Loss:  0.18,  Val Acc: 93.52%,  Time: 0:23:37 
+Iter:   4200,  Train Loss: 0.072,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.73%,  Time: 0:24:11 
+Iter:   4300,  Train Loss:  0.23,  Train Acc: 92.19%,  Val Loss:  0.19,  Val Acc: 93.30%,  Time: 0:24:44 
+No optimization for a long time, auto-stopping...
+Test Loss:  0.18,  Test Acc: 93.97%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+       World     0.9528    0.9447    0.9487      1900
+      Sports     0.9802    0.9884    0.9843      1900
+    Business     0.9218    0.8995    0.9105      1900
+    Sci/Tech     0.9044    0.9263    0.9152      1900
+
+    accuracy                         0.9397      7600
+   macro avg     0.9398    0.9397    0.9397      7600
+weighted avg     0.9398    0.9397    0.9397      7600
+
+Confusion Matrix...
+[[1795   21   41   43]
+ [  11 1878    6    5]
+ [  45    8 1709  138]
+ [  33    9   98 1760]]
+Time usage: 0:00:10

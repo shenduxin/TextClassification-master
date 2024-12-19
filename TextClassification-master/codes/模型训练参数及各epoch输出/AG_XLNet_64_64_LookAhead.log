@@ -1,0 +1,258 @@
+Loading data...
+Time usage: 0:00:33
+<bound method Module.parameters of Model(
+  (xlnet): XLNetModel(
+    (word_embedding): Embedding(32000, 768)
+    (layer): ModuleList(
+      (0): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (1): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (2): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (3): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (4): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (5): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (6): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (7): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (8): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (9): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (10): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (11): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (fc): Linear(in_features=768, out_features=4, bias=True)
+)>
+Iter:      0,  Train Loss:   1.9,  Train Acc: 25.00%,  Val Loss:   1.6,  Val Acc: 24.05%,  Time: 0:00:14 *
+Iter:    100,  Train Loss:  0.49,  Train Acc: 84.38%,  Val Loss:  0.31,  Val Acc: 89.47%,  Time: 0:01:05 *
+Iter:    200,  Train Loss:  0.12,  Train Acc: 95.31%,  Val Loss:  0.29,  Val Acc: 90.18%,  Time: 0:01:57 *
+Iter:    300,  Train Loss:  0.19,  Train Acc: 92.19%,  Val Loss:  0.25,  Val Acc: 91.38%,  Time: 0:02:48 *
+Iter:    400,  Train Loss:   0.3,  Train Acc: 85.94%,  Val Loss:  0.24,  Val Acc: 91.78%,  Time: 0:03:40 *
+Iter:    500,  Train Loss:  0.32,  Train Acc: 89.06%,  Val Loss:  0.24,  Val Acc: 91.70%,  Time: 0:04:32 *
+Iter:    600,  Train Loss:  0.37,  Train Acc: 90.62%,  Val Loss:  0.23,  Val Acc: 91.85%,  Time: 0:05:23 *
+Iter:    700,  Train Loss:  0.31,  Train Acc: 87.50%,  Val Loss:  0.22,  Val Acc: 92.30%,  Time: 0:06:15 *
+Iter:    800,  Train Loss:  0.25,  Train Acc: 92.19%,  Val Loss:  0.23,  Val Acc: 91.93%,  Time: 0:07:06 
+Iter:    900,  Train Loss:  0.22,  Train Acc: 89.06%,  Val Loss:  0.22,  Val Acc: 91.93%,  Time: 0:07:58 *
+Iter:   1000,  Train Loss:   0.1,  Train Acc: 96.88%,  Val Loss:  0.21,  Val Acc: 92.37%,  Time: 0:08:50 *
+Iter:   1100,  Train Loss:  0.17,  Train Acc: 93.75%,  Val Loss:  0.21,  Val Acc: 92.25%,  Time: 0:09:40 
+Iter:   1200,  Train Loss:  0.21,  Train Acc: 93.75%,  Val Loss:  0.21,  Val Acc: 92.23%,  Time: 0:10:31 
+Iter:   1300,  Train Loss: 0.081,  Train Acc: 98.44%,  Val Loss:   0.2,  Val Acc: 92.55%,  Time: 0:11:23 *
+Iter:   1400,  Train Loss:  0.29,  Train Acc: 87.50%,  Val Loss:  0.21,  Val Acc: 92.48%,  Time: 0:12:13 
+Iter:   1500,  Train Loss:  0.33,  Train Acc: 89.06%,  Val Loss:   0.2,  Val Acc: 93.03%,  Time: 0:13:05 *
+Iter:   1600,  Train Loss:  0.22,  Train Acc: 93.75%,  Val Loss:   0.2,  Val Acc: 92.68%,  Time: 0:13:55 
+Iter:   1700,  Train Loss:  0.14,  Train Acc: 95.31%,  Val Loss:   0.2,  Val Acc: 92.58%,  Time: 0:14:45 
+Iter:   1800,  Train Loss:  0.21,  Train Acc: 93.75%,  Val Loss:  0.19,  Val Acc: 93.47%,  Time: 0:15:37 *
+Iter:   1900,  Train Loss:  0.22,  Train Acc: 90.62%,  Val Loss:   0.2,  Val Acc: 92.57%,  Time: 0:16:27 
+Iter:   2000,  Train Loss:  0.16,  Train Acc: 93.75%,  Val Loss:  0.19,  Val Acc: 93.08%,  Time: 0:17:17 
+Iter:   2100,  Train Loss:  0.23,  Train Acc: 90.62%,  Val Loss:   0.2,  Val Acc: 92.93%,  Time: 0:18:07 
+Iter:   2200,  Train Loss:  0.14,  Train Acc: 93.75%,  Val Loss:  0.19,  Val Acc: 92.85%,  Time: 0:18:57 
+Iter:   2300,  Train Loss: 0.094,  Train Acc: 96.88%,  Val Loss:  0.19,  Val Acc: 93.20%,  Time: 0:19:49 *
+Iter:   2400,  Train Loss:  0.16,  Train Acc: 92.19%,  Val Loss:  0.19,  Val Acc: 93.18%,  Time: 0:20:40 
+Iter:   2500,  Train Loss:  0.18,  Train Acc: 90.62%,  Val Loss:  0.19,  Val Acc: 93.35%,  Time: 0:21:32 *
+Iter:   2600,  Train Loss:  0.14,  Train Acc: 95.31%,  Val Loss:   0.2,  Val Acc: 92.92%,  Time: 0:22:22 
+Iter:   2700,  Train Loss:  0.17,  Train Acc: 95.31%,  Val Loss:   0.2,  Val Acc: 92.20%,  Time: 0:23:12 
+Iter:   2800,  Train Loss:  0.18,  Train Acc: 96.88%,  Val Loss:   0.2,  Val Acc: 92.95%,  Time: 0:24:02 
+Iter:   2900,  Train Loss:  0.16,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 93.22%,  Time: 0:24:52 
+Iter:   3000,  Train Loss:  0.14,  Train Acc: 93.75%,  Val Loss:  0.19,  Val Acc: 92.92%,  Time: 0:25:43 
+Iter:   3100,  Train Loss:  0.25,  Train Acc: 89.06%,  Val Loss:  0.18,  Val Acc: 93.43%,  Time: 0:26:34 *
+Iter:   3200,  Train Loss:  0.23,  Train Acc: 89.06%,  Val Loss:  0.19,  Val Acc: 93.40%,  Time: 0:27:24 
+Iter:   3300,  Train Loss:  0.17,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.67%,  Time: 0:28:16 *
+Iter:   3400,  Train Loss:  0.22,  Train Acc: 90.62%,  Val Loss:  0.18,  Val Acc: 93.32%,  Time: 0:29:07 
+Iter:   3500,  Train Loss:  0.31,  Train Acc: 87.50%,  Val Loss:  0.18,  Val Acc: 93.47%,  Time: 0:29:57 
+Iter:   3600,  Train Loss:  0.18,  Train Acc: 92.19%,  Val Loss:   0.2,  Val Acc: 92.77%,  Time: 0:30:47 
+Iter:   3700,  Train Loss:  0.17,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 93.20%,  Time: 0:31:37 
+Iter:   3800,  Train Loss:  0.08,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 93.45%,  Time: 0:32:27 
+Iter:   3900,  Train Loss:  0.23,  Train Acc: 92.19%,  Val Loss:  0.18,  Val Acc: 93.38%,  Time: 0:33:19 *
+Iter:   4000,  Train Loss:  0.07,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 93.52%,  Time: 0:34:09 
+Iter:   4100,  Train Loss:  0.28,  Train Acc: 92.19%,  Val Loss:  0.18,  Val Acc: 93.33%,  Time: 0:34:59 
+Iter:   4200,  Train Loss:  0.12,  Train Acc: 95.31%,  Val Loss:  0.17,  Val Acc: 93.75%,  Time: 0:35:51 *
+Iter:   4300,  Train Loss:  0.18,  Train Acc: 92.19%,  Val Loss:  0.18,  Val Acc: 93.37%,  Time: 0:36:41 
+Iter:   4400,  Train Loss:  0.15,  Train Acc: 93.75%,  Val Loss:  0.19,  Val Acc: 93.07%,  Time: 0:37:32 
+Iter:   4500,  Train Loss:  0.19,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.67%,  Time: 0:38:22 
+Iter:   4600,  Train Loss:  0.14,  Train Acc: 92.19%,  Val Loss:  0.17,  Val Acc: 93.63%,  Time: 0:39:14 *
+Iter:   4700,  Train Loss:  0.11,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.57%,  Time: 0:40:04 
+Iter:   4800,  Train Loss:  0.18,  Train Acc: 95.31%,  Val Loss:  0.18,  Val Acc: 93.32%,  Time: 0:40:54 
+Iter:   4900,  Train Loss: 0.078,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.47%,  Time: 0:41:45 
+Iter:   5000,  Train Loss:  0.16,  Train Acc: 95.31%,  Val Loss:  0.17,  Val Acc: 93.78%,  Time: 0:42:36 *
+Iter:   5100,  Train Loss:  0.21,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.32%,  Time: 0:43:26 
+Iter:   5200,  Train Loss:  0.19,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.50%,  Time: 0:44:16 
+Iter:   5300,  Train Loss:  0.17,  Train Acc: 93.75%,  Val Loss:  0.19,  Val Acc: 93.10%,  Time: 0:45:07 
+Iter:   5400,  Train Loss:  0.18,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 92.95%,  Time: 0:45:57 
+Iter:   5500,  Train Loss:  0.21,  Train Acc: 92.19%,  Val Loss:  0.19,  Val Acc: 93.33%,  Time: 0:46:47 
+Iter:   5600,  Train Loss:  0.23,  Train Acc: 96.88%,  Val Loss:  0.18,  Val Acc: 93.52%,  Time: 0:47:37 
+Iter:   5700,  Train Loss:  0.14,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.63%,  Time: 0:48:27 
+Iter:   5800,  Train Loss:  0.12,  Train Acc: 96.88%,  Val Loss:  0.19,  Val Acc: 93.17%,  Time: 0:49:18 
+Iter:   5900,  Train Loss:  0.16,  Train Acc: 92.19%,  Val Loss:  0.17,  Val Acc: 93.72%,  Time: 0:50:08 
+Iter:   6000,  Train Loss:  0.18,  Train Acc: 95.31%,  Val Loss:  0.17,  Val Acc: 94.08%,  Time: 0:51:00 *
+Iter:   6100,  Train Loss: 0.084,  Train Acc: 98.44%,  Val Loss:  0.17,  Val Acc: 93.78%,  Time: 0:51:50 
+Iter:   6200,  Train Loss: 0.056,  Train Acc: 98.44%,  Val Loss:  0.17,  Val Acc: 93.80%,  Time: 0:52:40 
+Iter:   6300,  Train Loss:  0.14,  Train Acc: 95.31%,  Val Loss:  0.19,  Val Acc: 93.05%,  Time: 0:53:31 
+Iter:   6400,  Train Loss:   0.3,  Train Acc: 90.62%,  Val Loss:  0.17,  Val Acc: 93.73%,  Time: 0:54:21 
+Iter:   6500,  Train Loss:  0.16,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.60%,  Time: 0:55:12 
+Iter:   6600,  Train Loss: 0.041,  Train Acc: 100.00%,  Val Loss:  0.17,  Val Acc: 93.85%,  Time: 0:56:02 
+Iter:   6700,  Train Loss: 0.048,  Train Acc: 98.44%,  Val Loss:  0.18,  Val Acc: 93.63%,  Time: 0:56:52 
+Iter:   6800,  Train Loss:   0.2,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 93.63%,  Time: 0:57:42 
+Iter:   6900,  Train Loss:  0.22,  Train Acc: 90.62%,  Val Loss:  0.18,  Val Acc: 93.60%,  Time: 0:58:32 
+Iter:   7000,  Train Loss:   0.2,  Train Acc: 93.75%,  Val Loss:  0.17,  Val Acc: 93.90%,  Time: 0:59:22 
+No optimization for a long time, auto-stopping...
+Test Loss:  0.17,  Test Acc: 94.41%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+       World     0.9447    0.9616    0.9531      1900
+      Sports     0.9853    0.9868    0.9861      1900
+    Business     0.9363    0.8974    0.9164      1900
+    Sci/Tech     0.9104    0.9305    0.9204      1900
+
+    accuracy                         0.9441      7600
+   macro avg     0.9442    0.9441    0.9440      7600
+weighted avg     0.9442    0.9441    0.9440      7600
+
+Confusion Matrix...
+[[1827   12   33   28]
+ [  13 1875    7    5]
+ [  47    7 1705  141]
+ [  47    9   76 1768]]
+Time usage: 0:00:15
